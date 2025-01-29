@@ -1,7 +1,7 @@
 # MrMindAI Agent 🤖
 
 <div align="center">
-  <img src="./docs/static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
+  <img src="./docs/static/img/eliza_banner.jpg" alt="Eliza Banner" width="30%" />
 </div>
 
 <div align="center">
