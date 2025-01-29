@@ -1,4 +1,4 @@
-# Eliza 🤖
+# MrMindAI Agent 🤖
 
 <div align="center">
   <img src="./docs/static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
@@ -59,13 +59,14 @@
 git clone https://github.com/elizaos/eliza-starter.git
 cd eliza-starter
 cp .env.example .env
-pnpm i && pnpm build && pnpm start
+pnpm i && pnpm build
 ```
 
 Once the agent is running, you should see the message to run "pnpm start:client" at the end.
 Open another terminal and move to same directory and then run below command and follow the URL to chat to your agent.
 
 ```bash
+pnpm start --characters="characters/mrmindai.character.json"
 pnpm start:client
 ```
 
